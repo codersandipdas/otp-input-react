@@ -1,38 +1,30 @@
-.App {
+.send__otp__wrapper {
   text-align: center;
+  padding: 100px 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn {
+  padding: 10px 40px;
+  border-radius: 50px;
+  border: 0px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.send__otp {
+  background-color: #4aaf72;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.send__otp:hover {
+  background-color: #319458;
 }
-
-.App-link {
-  color: #61dafb;
+.w-100 {
+  width: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.d-block {
+  display: block;
 }

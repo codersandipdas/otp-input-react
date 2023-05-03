@@ -1,0 +1,68 @@
+.votp__backdrop {
+  background-color: rgba(0 0 0 / 60%);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 990;
+}
+.votp__container {
+  background-color: #ffffff;
+  width: 560px;
+  max-width: 95vw;
+  height: auto;
+  max-height: 90vh;
+  padding: 25px 20px;
+  border-radius: 4px;
+  overflow: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+.votp__header {
+  text-align: center;
+}
+.votp__header h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #222222;
+  padding-bottom: 20px;
+  margin: 0 0 20px 0;
+  border-bottom: 1px solid #cdcdcd;
+}
+.enter__otp__text {
+  text-align: center;
+  color: #888888;
+  font-size: 16px;
+  font-weight: 500;
+}
+.input__container {
+  max-width: 420px;
+  margin: auto;
+}
+.dflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.text__btn {
+  background-color: #ffffff;
+  border: none;
+  color: #5177b3;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.text__btn:hover {
+  color: #2a4776;
+}
+.close__otp__modal {
+  text-align: center;
+  margin-bottom: 20px;
+}
