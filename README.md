@@ -2,9 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Screenshot
 
-![Screenshot](https://github.com/codersandipdas/otp-input-react/blob/main/screenshots/screenshot.png)
+![screenshot](https://user-images.githubusercontent.com/80107954/235964717-83c5634f-df20-4b08-ac2c-5236cd92b780.png)
+
 
 ## Available Scripts
 
